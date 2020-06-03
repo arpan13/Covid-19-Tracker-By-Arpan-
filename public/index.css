@@ -15,33 +15,33 @@ html {
     width:15rem;
     margin: 10px;
 }
-header {
-    background-color: #0a97b0;
-    margin: auto -16px;
-    padding: 16px 32px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  }
+
   h2{
       font-size: 1rem;
   }
-  
-  header h1 {
+   .heading{
     text-align: center;
-    color: #fff;
-    font-family: "McLaren", cursive;
-    font-weight: 200;
   }
+  header{
+    background-color: lightblue;
+
+  }
+  
+ 
   
   footer {
-    position: absolute;
+    
     text-align: center;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
+    
+  }
+  .foot{
+    padding: 1rem;
+    margin-top: 50px;
+    background-color: burlywood;
   }
   
-  footer p {
-    color: #ccc;
+  footer  {
+    color:black;
   }
   .dictionary {
     display: flex;
@@ -56,15 +56,40 @@ header {
   }
   .graph{
       /* padding:0 0 0 100px; */
-      margin-left: 50px;
-      padding-left: 20px;
+      
+      margin-top: 50px;
+      
+      
       height: 100px;
       width: 400px;
   }
+  
   .graphmap{
+    position: absolute;
     margin-top: 50px;
     height: 100px;
-    width: 1030px;}
+    width: 500px;
+  }
+  .container-fluid{
+    padding-bottom: 100px;
+    padding: 3% 15%;
+  }
+  .dictionaryGraph{
+    width: 50%;
+    float: left;
+    padding: 20px;
+  }  
+  @media only screen and (max-width:1028px) {
+    body {
+      background-color: lightblue;
+    }
+    
+    .graphmap{
+      position: static;
+    }
+  }
+  
+  
   
   
    
