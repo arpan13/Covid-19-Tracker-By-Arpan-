@@ -3,8 +3,7 @@ import Card from "./cards";
 import Header from "./header";
 import Footer from "./footer";
 
-import Graph from "./graph";
-import GraphMap from "./graphByCases";
+
  
 
 
@@ -53,7 +52,7 @@ function App(){
    
      return (
          
-      <div className="container-fluid">
+      <div className="container">
          <div className="row ">
            <div className="col-lg heading"><Header /></div>
           
@@ -82,16 +81,16 @@ function App(){
                 recoverd={coviddataChina.recovered}
                 deaths={coviddataChina.deaths}
                 />
-                <Card />
+               
                 
             
                 </div>
          </div>
          <div class="row">
                
-              <div class="flourish-embed flourish-chart  col-lg-6" data-src="story/230114">
+              <div class="flourish-embed flourish-chart  col-lg-6 " data-src="story/230114">
              </div>
-             <div class="flourish-embed flourish-map  col-lg-6" data-src="story/229998">
+             <div class="flourish-embed flourish-map  col-lg-6 " data-src="story/229998">
              </div>
             
                         
