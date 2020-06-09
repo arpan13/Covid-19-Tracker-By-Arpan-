@@ -13,7 +13,7 @@ html {
   }
 .card{
     text-align:center;
-    background-color: #fcbf1e;
+    background-color: #32e0c4;
     box-shadow: 4px 3px 7px 2px #00000040;
     width:15rem;
     margin: 10px;
@@ -25,9 +25,22 @@ html {
   padding: 20px;
 }
   h1{
-    color:#fcbf1e;
-    font-family: 'Balsamiq Sans', cursive;
+    color:#393e46;
+    font-family: 'Roboto', sans-serif;
     font-size: 4rem;
+   
+  }
+  .videoh1{
+    color:#393e46;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    position: relative;
+    left:190px;
+  }
+  .video{
+    position: absolute;;
+    left:220px;
+    margin-right: 10px;
   }
 
   h2{
@@ -85,10 +98,7 @@ html {
     height: 100px;
     width: 500px;
   }
-  .container-fluid{
-    padding-bottom: 100px;
-    padding: 3% 15%;
-  }
+  
   .dictionaryGraph{
     width: 50%;
     float: left;
@@ -101,6 +111,13 @@ html {
     
     .graphmap{
       position: static;
+    }
+    .videoh1{
+      left: 0px;
+    }
+    .video{
+      left: 0px;
+      text-align: center;
     }
   }
   
